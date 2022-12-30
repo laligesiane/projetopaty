@@ -44,16 +44,17 @@ body {
 
 .texto {
     display: flex;
+    flex-direction: column;
 }
 
 .texto h1 {
-    /* Título */
+    margin-bottom: auto;
     text-align: center;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 34px;
-    line-height: 41px;
+    /* line-height: 41px; */
     color: var(---text-h1-color);
 }
 
@@ -90,9 +91,10 @@ a:hover {
 }
 
 .texto p {
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 17px;
+    /* font-weight: 200; */
+    font-size: 12px;
+    margin-top: auto;
+    /* line-height: 17px; */
 }
 
 .caixaTexto {
