@@ -68,7 +68,6 @@ body {
 }
 
 a {
-    opacity: 100%;
     text-decoration: none;
     color: var(---text-p-color);
 }
@@ -101,7 +100,6 @@ a:hover {
     padding: 10px;
     margin: 10px;
     gap: 10px;
-    opacity: 60%;
     background: var(---bg-label);
     border-radius: 17px;
     align-content: center;
