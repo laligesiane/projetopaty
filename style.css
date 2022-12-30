@@ -42,6 +42,9 @@ body {
     border-radius: 50%;
 }
 
+.texto {
+    display: flex;
+}
 
 .texto h1 {
     /* Título */
