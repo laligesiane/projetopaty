@@ -75,6 +75,20 @@ a:hover {
     color: var(---text-hover);
 }
 
+.icons {
+    color: var(---text-p-color);
+    font-size: 40px;
+    display: flex;
+    width: 241px;
+    padding: 15px;
+    margin: 10px;
+    gap: 10px;
+    border-radius: 17px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .label {
     display: flex;
     width: 241px;
