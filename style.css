@@ -45,7 +45,6 @@ body {
 }
 
 .texto {
-    width: 80%;
     display: flex;
     flex-direction: column;
 }
@@ -54,8 +53,6 @@ body {
     font-family: 'Alata', sans-serif;
     margin-bottom: auto;
     text-align: center;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400; 
     font-size: 48px;
     color: var(---text-h1-color);
