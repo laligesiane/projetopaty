@@ -4,7 +4,8 @@
 
 body {
     margin: 0;
-    background-color: var(---bg-color);
+    background-image: url(/media/bg.png);
+    background-position: cover;
     ---bg-color: #fff;
     ---text-h1-color: #8E3F70;
     ---text-p-color: #6A1449;
@@ -141,3 +142,4 @@ a:hover {
     }
 
 }
+
