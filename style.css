@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-image: url(/media/bg.png);
+    background-image: url(./media/bg.png);
     background-position: cover;
     ---bg-color: #fff;
     ---text-h1-color: #8E3F70;
@@ -68,6 +68,7 @@ body {
 }
 
 a {
+    opacity: 100%;
     text-decoration: none;
     color: var(---text-p-color);
 }
