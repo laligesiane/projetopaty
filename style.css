@@ -51,6 +51,7 @@ body {
 }
 
 .texto h1 {
+    font-family: 'Alata', sans-serif;
     margin-bottom: auto;
     text-align: center;
     font-family: 'Inter';
