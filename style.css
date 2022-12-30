@@ -68,8 +68,6 @@ body {
 }
 
 a {
-    font-size: 20px;
-    font-weight: 300;
     text-decoration: none;
     color: var(---text-p-color);
 }
@@ -79,6 +77,8 @@ a:hover {
 }
 
 .icons {
+    font-size: 20px;
+    font-weight: 300;
     text-decoration: none;
     color: var(---text-p-color);
     font-size: 40px;
