@@ -76,6 +76,7 @@ a:hover {
 }
 
 .icons {
+    text-decoration: none;
     color: var(---text-p-color);
     font-size: 40px;
     display: flex;
