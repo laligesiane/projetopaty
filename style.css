@@ -3,18 +3,24 @@
 body {
     margin: 0;
     background-color: var(---bg-color);
-    ---bg-color: #0f1013;
-    ---text-color: #E2E2E2;
+    ---bg-color: #fff;
+    ---text-h1-color: #8E3F70;
+    ---text-p-color: #6A1449;
     ---text-hover: #B6B6B6;
-    ---bg-label: #191B22;
+    ---bg-label: #F5E6F0;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .retangulo {
-    background: var(---bg-label);
+    display: flex;
     border-radius: 10px;
     padding: 10px;
     margin: 0;
@@ -23,35 +29,33 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .foto {
-    position: absolute;
-    top: auto;
-    left: 50%; 
+    position: relative;
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    vertical-align: top;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); 
 }
 
 
 .titulo {
     /* Título */
-    margin-top: 60px;
+    text-align: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
     line-height: 41px;
-    color: var(---text-color);
+    color: var(---text-h1-color);
 }
 
 a {
     text-decoration: none;
-    color: var(---text-color);
+    color: var(---text-p-color);
 }
 
 a:hover {
@@ -64,8 +68,8 @@ a:hover {
     padding: 15px;
     margin: 10px;
     gap: 10px;
-    background: var(---bg-color);
-    border-radius: 3px;
+    background: var(---bg-label);
+    border-radius: 17px;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -73,12 +77,18 @@ a:hover {
 
 
 .subtitulo {
+    text-align: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    color: var(---text-color);
+    color: var(---text-p-color);
+}
+
+.sub {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .texto {
