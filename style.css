@@ -43,6 +43,7 @@ body {
 }
 
 .texto {
+    width: 80%;
     display: flex;
     flex-direction: column;
 }
@@ -56,6 +57,13 @@ body {
     font-size: 34px;
     /* line-height: 41px; */
     color: var(---text-h1-color);
+}
+
+.texto p {
+    /* font-weight: 200; */
+    font-size: 12px;
+    margin-top: auto;
+    /* line-height: 17px; */
 }
 
 a {
@@ -88,16 +96,7 @@ a:hover {
     font-weight: 400;
     font-size: 16px;
     color: var(---text-p-color);
-}
 
-.texto p {
-    /* font-weight: 200; */
-    font-size: 12px;
-    margin-top: auto;
-    /* line-height: 17px; */
-}
-
-.caixaTexto {
     display: flex;
     flex-direction: column;
     align-items: center;
