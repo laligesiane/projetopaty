@@ -4,8 +4,7 @@
 
 body {
     margin: 0;
-    background-image: url(./media/bg.png);
-    background-position: cover;
+    background-color: var(---bg-color);
     ---bg-color: #fff;
     ---text-h1-color: #8E3F70;
     ---text-p-color: #6A1449;
