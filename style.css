@@ -75,14 +75,22 @@ a:hover {
     color: var(---text-hover);
 }
 
-.icons {
+.icon {
     font-weight: 300;
     text-decoration: none;
     color: var(---text-p-color);
-    font-size: 40px;
+    font-size: 45px;
+    margin: 10px;
+}
+
+.icon-left {
+    display: block;
+    align-self: end;
+}
+
+.icon-center {
     display: flex;
     width: 241px;
-    margin: 10px;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
@@ -106,6 +114,33 @@ a:hover {
     align-items: center;
 }
 
+.bottom {
+    bottom: 0;
+    position: absolute;
+}
+
+.copy-link {
+    visibility: hidden;
+    display: flex;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: auto;
+    height: auto;
+    background-color: var(---bg-label);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    font-size: inherit;
+    color: var(---text-p-color);
+}
 
 .caixaTexto {
     text-align: center;
@@ -130,7 +165,7 @@ a:hover {
         font-size: 14px;
     }
 
-    .icons {
+    .icon {
         font-size: 32px;
     }
 
