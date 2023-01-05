@@ -32,11 +32,7 @@ function shareLink() {
 
     el.classList.add('bottom', 'copy-link','label');
   
-    el.innerHTML = '<p id="p"></p>
-
     el.innerHTML = '<button onclick="copyLink()">Copiar link</button>'
-
-    document.getElementById("p").innerHTML = shareLink(url);
 
   }
 
