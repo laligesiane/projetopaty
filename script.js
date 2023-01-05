@@ -1,6 +1,6 @@
 function copyLink() {
     
-  let idButton = document.getElementById('button')
+  let idButton = document.getElementsByClassName('button')
   console.log(idButton.length)
 
   if (idButton.length > 1) {
@@ -40,7 +40,7 @@ if (classDiv.length > 0) {
 
   el.classList.add('bottom', 'copy-link','label');
 
-  el.innerHTML = '<button id="button" onclick="copyLink()">Copiar link</button>'
+  el.innerHTML = '<button class="button" onclick="copyLink()">Copiar link</button>'
 }
 
 }
