@@ -1,13 +1,13 @@
 function copyLink() {
     
-    let idButton = document.getElementById('copy-link')
+   // let idButton = document.getElementById('copy-link')
 
-        if (idButton.length > 0) {
+      //  if (idButton.length > 0) {
       
-        const element = document.getElementById('copy1');
-        element.remove();
+     //   const element = document.getElementById('copy1');
+     //   element.remove();
 
-    } else { 
+ //   } else { 
         
         var url = location.href;
 
