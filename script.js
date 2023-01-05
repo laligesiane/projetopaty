@@ -1,17 +1,17 @@
 function copyLink() {
+    
+    let idButton = document.getElementById('copy-link')
 
-    let idButton = document.getElementById('button')
-
-      if (idButton.length > 1) {
+        if (idButton.length > 0) {
       
-    const element = document.getElementById('copy1');
-    element.remove();
+        const element = document.getElementById('copy1');
+        element.remove();
 
     } else { 
-    var url = location.href;
+        
+        var url = location.href;
 
-    navigator.clipboard.writeText(url);
-
+        navigator.clipboard.writeText(url);
 }
 
 
