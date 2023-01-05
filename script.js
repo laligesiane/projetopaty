@@ -1,5 +1,13 @@
 function copyLink() {
 
+    let idButton = document.getElementById('button')
+
+      if (idButton.length > 0) {
+      
+    const element = document.getElementById('copy1');
+    element.remove();
+
+    } else { 
     var url = location.href;
 
     navigator.clipboard.writeText(url);
@@ -32,7 +40,7 @@ function shareLink() {
 
     el.classList.add('bottom', 'copy-link','label');
   
-    el.innerHTML = '<button onclick="copyLink()">Copiar link</button>'
+    el.innerHTML = '<button id="button" onclick="copyLink()">Copiar link</button>'
 
   }
 
