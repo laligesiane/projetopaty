@@ -43,5 +43,6 @@ if (classDiv.length > 0) {
   el.classList.add('bottom', 'copy-link','label');
 
   el.innerHTML = '<button id="button" onclick="copyLink()">Copiar link</button>'
+}
 
 }
