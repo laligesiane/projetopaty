@@ -3,12 +3,12 @@ function copyLink() {
     let idButton = document.getElementsByClassName('copy-link')
     console.log(idButton.length)
 
-      //  if (idButton.length > 0) {
+        if (idButton.length > 1) {
       
-     //   const element = document.getElementById('copy1');
-     //   element.remove();
+        const element = document.getElementById('copy1');
+        element.remove();
 
- //   } else { 
+    } else { 
         
         var url = location.href;
 
