@@ -3,16 +3,16 @@ function copyLink() {
   let idButton = document.getElementsByClassName('copy-link')
   console.log(idButton.length)
 
-      if (idButton.length > 1) {
-    
-      const element = document.getElementById('copy1');
-      element.remove();
+  if (idButton.length > 1) {
+  
+    const element = document.getElementById('copy1');
+    element.remove();
 
   } else { 
-      
-      var url = location.href;
+        
+    var url = location.href;
 
-      navigator.clipboard.writeText(url);
+    navigator.clipboard.writeText(url);
   }
 }
 
@@ -20,8 +20,6 @@ function copyLink() {
 function shareLink() {
 
 let classDiv = document.getElementsByClassName('copy-link')
-
-console.log(classDiv.length)
 
 if (classDiv.length > 0) {
 
