@@ -1,14 +1,39 @@
-function myFunction() {
-    // Get the text field
-    var copyText = document.getElementById("myInput");
-  
-    // Select the text field
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); // For mobile devices
-  
-     // Copy the text inside the text field
+function copyLink() {
+
+    var copyText = window.location.href;
+
     navigator.clipboard.writeText(copyText.value);
-  
-    // Alert the copied text
-    alert("Copied the text: " + copyText.value);
+
+}
+
+
+function shareLink() {
+
+  let classDiv = document.getElementsByClassName('copy-link')
+
+  console.log(classDiv.length)
+
+  if (classDiv.length > 0) {
+
+    const element = document.getElementById('copy1');
+    element.remove();
+
+  } else { 
+
+    const el = document.createElement('div');
+
+    let button = document.getElementById('button-share')
+
+    let parentDiv = button.parentNode
+
+    parentDiv.insertBefore(el,button)
+
+    el.setAttribute('id','copy1')
+
+    el.classList.add('bottom', 'copy-link','label');
+
+    el.innerHTML = '<button onclick="copyLink()">Copiar link</button>'
+
   }
+
+}
