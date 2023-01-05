@@ -1,8 +1,8 @@
 function copyLink() {
 
-    var copyText = location.href;
+    var url = location.href;
 
-    navigator.clipboard.writeText(copyText.value);
+    navigator.clipboard.writeText(url);
 
 }
 
@@ -31,8 +31,12 @@ function shareLink() {
     el.setAttribute('id','copy1')
 
     el.classList.add('bottom', 'copy-link','label');
+  
+    el.innerHTML = '<p id="p"></p>
 
     el.innerHTML = '<button onclick="copyLink()">Copiar link</button>'
+
+    document.getElementById("p").innerHTML = shareLink(url);
 
   }
 
