@@ -4,7 +4,8 @@
 
 body {
     margin: 0;
-    background-color: var(---bg-color);
+    background: rgb(255,213,240);
+    background: linear-gradient(243deg, rgba(255,213,240,0.1881127450980392) 0%, rgba(169,209,232,0.19371498599439774) 100%);
     ---bg-color: #fff;
     ---text-h1-color: #8E3F70;
     ---text-p-color: #6A1449;
