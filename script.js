@@ -1,6 +1,6 @@
 function copyLink() {
     
-  let idButton = document.getElementsByClassName('copy-link')
+  let idButton = document.getElementById('button')
   console.log(idButton.length)
 
   if (idButton.length > 1) {
