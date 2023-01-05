@@ -1,6 +1,6 @@
 function copyLink() {
 
-    var copyText = window.location.href;
+    var copyText = document.URL;
 
     navigator.clipboard.writeText(copyText.value);
 
