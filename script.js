@@ -2,7 +2,7 @@ function copyLink() {
 
     let idButton = document.getElementById('button')
 
-      if (idButton.length > 0) {
+      if (idButton.length > 1) {
       
     const element = document.getElementById('copy1');
     element.remove();
