@@ -21,19 +21,6 @@ body {
     background: linear-gradient(to bottom right, #588681, #BDECC2);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container {
     
     display: flex;
@@ -184,7 +171,7 @@ button {
 }
 
 button:hover {
-    color: white;
+    color: rgb(2 71 76);
 }
 
 .caixaTexto {
