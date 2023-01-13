@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-//tags
+
 
 body {
     ---bg-color: #fff;
@@ -26,7 +26,8 @@ a {
     text-decoration: none;
 }
 
-//page structure
+
+
 
 .bg {
     height: 100vh;
@@ -61,7 +62,8 @@ a {
     align-items: center;
 }
 
-//img
+
+
 
 .foto {
     background-color: var(---bg-label);
@@ -71,7 +73,8 @@ a {
     border-radius: 50%;
 }
 
-//text style
+
+
 
 .caixa-texto {
     text-align: center;
@@ -104,7 +107,9 @@ a {
     /* line-height: 17px; */
 }
 
-//divs 
+
+
+
 
 .label {
     color: var(---text-p-color);
@@ -139,7 +144,9 @@ a {
     color: var(---bg-label);
 }
 
-//icons
+
+
+
 
 #div-share-button {
     width: -webkit-fill-available;
