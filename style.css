@@ -182,7 +182,7 @@ button:hover {
 }
 
 
-:hover {
+.label,button:hover {
         transition: 30ms fade-in;
 }
 
