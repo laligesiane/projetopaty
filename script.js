@@ -14,6 +14,7 @@ function copyLink() {
     var url = location.href;
 
     navigator.clipboard.writeText(url);
+
   }
 }
 
@@ -44,7 +45,9 @@ if (classDiv.length > 0) {
 
   el.classList.add( 'copy-link','label');
 
-  el.innerHTML = '<span> oie </span>';
+  el.innerHTML = '<button onclick="copyLink(this)" class="button ph-share-thin icon-button-hove" ></button><button class="ph-whatsapp-logo-thin icon-button-hove"></button>';
+
 }
+
 
 }

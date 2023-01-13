@@ -155,7 +155,8 @@ a {
     height: auto;
     flex-direction: row;
     flex-wrap: nowrap;
-    color: var(---text-p-color);
+    background-color: var(---bg-color);
+    color: var(---bg-label);
 }
 
 #button-share {
@@ -170,16 +171,20 @@ a {
     position: fixed;
 }
 
+.icon-button-hover:hover {
+    background-color: var(---bg-label);
+
+}
 
 button {
     border: 0;
     background-color: transparent;
     font-size: 45px;
-    color: var(---text-p-color);
+    color: var(---bg-label);
 }
 
 button:hover {
-    color: var(---bg-label);
+    color: white;
 }
 
 .caixaTexto {
