@@ -12,7 +12,7 @@ body {
 
 
 .bg {
-    height: 100vmin;
+    height: 100vh;
     background-repeat: no-repeat;
     background: #588681;
     background: -webkit-linear-gradient(top left, #588681, #BDECC2);
