@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
+//tags
 
 body {
     ---bg-color: #fff;
@@ -10,6 +11,22 @@ body {
     ---bg-label: rgb(0, 124, 133);
 }
 
+button {
+    border: 0;
+    background-color: transparent;
+    font-size: 45px;
+    color: var(---bg-label);
+}
+
+button:hover {
+    color: rgb(2 71 76);
+}
+
+a {
+    text-decoration: none;
+}
+
+//page structure
 
 .bg {
     height: 100vh;
@@ -29,7 +46,7 @@ body {
     align-content: center;
 }
 
-.retangulo {
+.info-box {
     display: flex;
     border-radius: 10px;
     padding: 10px;
@@ -44,12 +61,25 @@ body {
     align-items: center;
 }
 
+//img
+
 .foto {
     background-color: var(---bg-label);
     position: relative;
     width: 120px;
     height: 120px;
     border-radius: 50%;
+}
+
+//text style
+
+.caixa-texto {
+    text-align: center;
+    color: var(---text-p-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .texto {
@@ -74,9 +104,7 @@ body {
     /* line-height: 17px; */
 }
 
-a {
-    text-decoration: none;
-}
+//divs 
 
 .label {
     color: var(---text-p-color);
@@ -102,6 +130,36 @@ a {
     background-color: var(---text-p-color);
 }
 
+.copy-link {
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: var(---bg-color);
+    color: var(---bg-label);
+}
+
+//icons
+
+#div-share-button {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: flex-start;
+    margin-top: 80px;
+    position: fixed;
+}
+
+#share-button {
+    color: white;
+}
+
+#share-button:active {
+    color: var(---bg-label);
+}
 
 .icon {
     font-weight: 300;
@@ -133,62 +191,6 @@ a {
 .icon a:hover {
     background-color: white;
     border-radius: 5px;
-}
-
-.bottom {
-    bottom: 0;
-    position: absolute;
-}
-
-.copy-link {
-    width: auto;
-    height: auto;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: var(---bg-color);
-    color: var(---bg-label);
-}
-
-#button-share {
-    width: -webkit-fill-available;
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    align-items: center;
-    align-content: space-between;
-    justify-content: flex-start;
-    margin-top: 80px;
-    position: fixed;
-}
-
-#button {
-    color: white;
-}
-
-#button:active {
-    color: var(---bg-label);
-}
-
-
-button {
-    border: 0;
-    background-color: transparent;
-    font-size: 45px;
-    color: var(---bg-label);
-}
-
-button:hover {
-    color: rgb(2 71 76);
-}
-
-
-.caixaTexto {
-    text-align: center;
-    color: var(---text-p-color);
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .ph-linkedin-logo-thin:hover {
