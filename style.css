@@ -163,7 +163,7 @@ a {
 
 #button:hover {
     font-size: 50px;
-    transicion: 5ms fade-in;
+    transition: 5ms fade-in;
 }
 
 .icon-button-hover:hover {
