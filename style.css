@@ -12,9 +12,8 @@ body {
 
 
 .bg {
-    height: 100vmax;
+    height: 100vmin;
     background-repeat: no-repeat;
-        /* Created with https://www.css-gradient.com */
     background: #588681;
     background: -webkit-linear-gradient(top left, #588681, #BDECC2);
     background: -moz-linear-gradient(top left, #588681, #BDECC2);
@@ -181,10 +180,6 @@ button:hover {
     color: rgb(2 71 76);
 }
 
-
-.label,button:hover {
-        transition: 30ms fade-in;
-}
 
 .caixaTexto {
     text-align: center;
