@@ -3,17 +3,39 @@
 
 
 body {
-    margin: 0;
-    background: rgb(255,213,240);
-    background: linear-gradient(243deg, rgba(255,213,240,0.1881127450980392) 0%, rgba(169,209,232,0.19371498599439774) 100%);
     ---bg-color: #fff;
-    ---text-h1-color: #8E3F70;
-    ---text-p-color: #6A1449;
+    ---text-h1-color: #fff;
+    ---text-p-color: #fff;
     ---text-hover: #8e3f70;
-    ---bg-label: #F5E6F0;
+    ---bg-label: rgb(0, 124, 133);
 }
 
+
+.bg {
+    height: 100vmax;
+    background-repeat: no-repeat;
+        /* Created with https://www.css-gradient.com */
+    background: #588681;
+    background: -webkit-linear-gradient(top left, #588681, #BDECC2);
+    background: -moz-linear-gradient(top left, #588681, #BDECC2);
+    background: linear-gradient(to bottom right, #588681, #BDECC2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container {
+    
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -69,12 +91,32 @@ body {
 
 a {
     text-decoration: none;
-    color: var(---text-p-color);
 }
 
-a:hover {
-    color: var(---text-hover);
+.label {
+    color: var(---text-p-color);
+    box-shadow: 0 5px 10px rgb(66 66 66 / 19%);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    width: 241px;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+    background: var(---bg-label);
+    border-radius: 17px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
+
+.label:hover {
+    color: var(---bg-label);
+    background-color: var(---text-p-color);
+}
+
 
 .icon {
     font-weight: 300;
@@ -98,23 +140,10 @@ a:hover {
     flex-wrap: nowrap;
 }
 
-.label {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    display: flex;
-    width: 241px;
-    padding: 10px;
-    margin: 10px;
-    gap: 10px;
-    background: var(---bg-label);
-    border-radius: 17px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+.icon a {
+    border-radius: 10px;
+    color: var(---bg-color);
 }
-
 
 .bottom {
     bottom: 0;
@@ -122,27 +151,35 @@ a:hover {
 }
 
 .copy-link {
-    width: 216px;
+    width: auto;
     height: auto;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding: 20px;
     color: var(---text-p-color);
 }
+
+#button-share {
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: flex-start;
+    margin-top: 80px;
+    position: fixed;
+}
+
 
 button {
     border: 0;
     background-color: transparent;
-    font-size: inherit;
+    font-size: 45px;
     color: var(---text-p-color);
 }
 
 button:hover {
-    color: var(---text-p-color);
-}
-
-.label:hover {
-    background: #ffd8f2;
+    color: var(---bg-label);
 }
 
 .caixaTexto {
@@ -152,6 +189,22 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.ph-linkedin-logo-thin:hover {
+    color: blue;
+}
+
+.ph-instagram-logo-thin:hover {
+    color: #6A1449;
+}
+
+.ph-tiktok-logo-thin:hover {
+    color: black;
+}
+
+.ph-whatsapp-logo-thin:hover {
+    color: green;
 }
 
 @media screen and (max-width: 700px) {

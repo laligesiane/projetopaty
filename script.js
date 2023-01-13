@@ -18,6 +18,11 @@ function copyLink() {
 }
 
 
+function insertAfter(newNode, existingNode) {
+  existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
+}
+
+
 function shareLink() {
 
 let classDiv = document.getElementsByClassName('copy-link')
@@ -31,17 +36,15 @@ if (classDiv.length > 0) {
 
   const el = document.createElement('div');
 
-  let button = document.getElementById('button-share')
+  let button = document.getElementById('button-share');
 
-  let parentDiv = button.parentNode
+  insertAfter(el, button.lastElementChild);
 
-  parentDiv.insertBefore(el,button)
+  el.setAttribute('id','copy1');
 
-  el.setAttribute('id','copy1')
+  el.classList.add( 'copy-link','label');
 
-  el.classList.add('bottom', 'copy-link','label');
-
-  el.innerHTML = '<button class="button" onclick="copyLink()">Copiar link</button>'
+  el.innerHTML = '<span> oie </span>';
 }
 
 }
