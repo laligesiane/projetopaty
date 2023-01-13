@@ -111,6 +111,11 @@ a {
     margin: 10px;
 }
 
+.icon:hover {
+    background-color: #cecece96;
+    border-radius: 30px;
+}
+
 .icon-left {
     display: block;
     align-self: end;
