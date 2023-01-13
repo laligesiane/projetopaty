@@ -158,6 +158,10 @@ a {
     position: fixed;
 }
 
+#button {
+    color: white;
+}
+
 .icon-button-hover:hover {
     background-color: var(---bg-label);
 
