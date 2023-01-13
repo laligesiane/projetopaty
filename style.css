@@ -162,7 +162,7 @@ a {
 }
 
 #button:hover {
-    font-size: 50px;
+    color: var(---bg-label);
     transition: 5ms fade-in;
 }
 
