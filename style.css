@@ -164,10 +164,6 @@ a {
     color: var(---bg-label);
 }
 
-.icon-button-hover:hover {
-    background-color: var(---bg-label);
-
-}
 
 button {
     border: 0;

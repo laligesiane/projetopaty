@@ -45,7 +45,7 @@ if (classDiv.length > 0) {
 
   el.classList.add( 'copy-link','label');
 
-  el.innerHTML = '<button onclick="copyLink(this)" class="button ph-share-thin icon-button-hove" ></button><button class="ph-whatsapp-logo-thin icon-button-hove"></button>';
+  el.innerHTML = '<button onclick="copyLink(this)" class="button ph-share-thin"></button><button class="ph-whatsapp-logo-thin"></button><button class="ph-telegram-logo-thin"></button>';
 
 }
 
