@@ -165,7 +165,7 @@ a {
     color: white;
 }
 
-#button:hover {
+#button:active {
     color: var(---bg-label);
 }
 
