@@ -163,7 +163,6 @@ a {
 
 #button:hover {
     color: var(---bg-label);
-    transition: 5ms fade-in;
 }
 
 .icon-button-hover:hover {
@@ -180,6 +179,11 @@ button {
 
 button:hover {
     color: rgb(2 71 76);
+}
+
+
+:hover {
+        transition: 30ms fade-in;
 }
 
 .caixaTexto {
