@@ -234,5 +234,9 @@ button:hover {
         width: 90px;
     }
 
+    button {
+        font-size: 32px;
+    }
+
 }
 
