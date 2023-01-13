@@ -199,11 +199,11 @@ button:hover {
 }
 
 .ph-whatsapp-logo-thin:hover {
-    color: green;
+    color: #25D366;
 }
 
 .ph-telegram-logo-thin:hover {
-    color: blue;
+    color: #0088CC;
 }
 
 @media screen and (max-width: 700px) {
