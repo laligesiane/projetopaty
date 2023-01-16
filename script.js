@@ -56,14 +56,12 @@ function shareUrlWhatsapp(){
   var url = location.href;
   var text = ['teste'];
   var link = 'https://api.whatsapp.com/send?text=['+text+']['+url+']';
-  console.log(link)
-  return link;
+  window.open(link);
 }
 
 function shareUrlTelegram(){
   var url = location.href;
   var text = ['teste'];
   var link = '  https://t.me/share/url?url={'+url+'}&text={'+text+'}';
-  console.log(link)
-  return link;
+  window.open(link);
 }
