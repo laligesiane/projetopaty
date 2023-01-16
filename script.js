@@ -55,13 +55,13 @@ if (classDiv.length > 0) {
 function shareUrlWhatsapp(){
   var url = location.href;
   var text = ['teste'];
-  var link = 'https://api.whatsapp.com/send?text=['+text+']['+url+']';
+  var link = 'https://api.whatsapp.com/send?text='+url;
   window.open(link);
 }
 
 function shareUrlTelegram(){
   var url = location.href;
   var text = ['teste'];
-  var link = '  https://t.me/share/url?url={'+url+'}&text={'+text+'}';
+  var link = '  https://t.me/share/url?url='+url+'&text='+text;
   window.open(link);
 }
