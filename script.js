@@ -45,9 +45,25 @@ if (classDiv.length > 0) {
 
   el.classList.add( 'copy-link','label');
 
-  el.innerHTML = '<button onclick="copyLink(this)" class="ph-share-thin"></button><button class="ph-whatsapp-logo-thin"></button><button class="ph-telegram-logo-thin"></button>';
+  el.innerHTML = '<button onclick="copyLink(this)" class="ph-share-thin"></button><button onclick="shareUrlWhatsapp()" class="ph-whatsapp-logo-thin"></button><button onclick="shareUrlTelegram()" class="ph-telegram-logo-thin"></button>';
 
 }
 
 
+}
+
+function shareUrlWhatsapp(){
+  var url = location.href;
+  var text = ['teste'];
+  var link = 'https://api.whatsapp.com/send?text=['+text+']['+url+']';
+  console.log(link)
+  return link;
+}
+
+function shareUrlTelegram(){
+  var url = location.href;
+  var text = ['teste'];
+  var link = '  https://t.me/share/url?url={'+url+'}&text={'+text+'}';
+  console.log(link)
+  return link;
 }
