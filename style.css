@@ -8,7 +8,7 @@ body {
     ---text-h1-color: #fff;
     ---text-p-color: #fff;
     ---text-hover: #8e3f70;
-    ---bg-label: rgb(0, 124, 133);
+    ---bg-label: #02474c;
 }
 
 button {
@@ -23,19 +23,29 @@ button:hover {
 }
 
 a {
+    color: inherit;
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
+::-webkit-scrollbar {
+    width: 1vh;
+    background-color: var(---bg-label);
+}
 
+::-webkit-scrollbar-thumb {
+    background-color: #3e6b66;
+}
 
 .bg {
-    height: 100vh;
     background-repeat: no-repeat;
-    background: #588681;
-    background: -webkit-linear-gradient(top left, #588681, #BDECC2);
-    background: -moz-linear-gradient(top left, #588681, #BDECC2);
-    background: linear-gradient(to bottom right, #588681, #BDECC2);
+    background: #3e6b66;
+    background: -webkit-linear-gradient(top left, #3e6b66, #02474c);
+    background: -moz-linear-gradient(top left, #3e6b66, #02474c);
+    background: linear-gradient(to bottom right, #3e6b66, #02474c);
 }
 
 .container {
@@ -66,14 +76,12 @@ a {
 
 
 .foto {
-    background-color: var(---bg-label);
+    background-color: var(---bg-color);
     position: relative;
     width: 120px;
     height: 120px;
     border-radius: 50%;
 }
-
-
 
 
 .caixa-texto {
@@ -104,9 +112,23 @@ a {
     font-weight: 200;
     font-size: 14px;
     margin-top: auto;
-    /* line-height: 17px; */
+    line-height: 17px; 
 }
 
+#sobre-mim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobre-mim div.caixa-texto {
+    align-items: flex-start;
+    width: 70%;
+}
+
+#sobre-mim div.texto h1 {
+    text-align: start;
+}
 
 
 
@@ -145,7 +167,9 @@ a {
 }
 
 
-
+section {
+    height: 100vh;
+}
 
 
 #div-share-button {
@@ -156,8 +180,8 @@ a {
     align-items: center;
     align-content: space-between;
     justify-content: flex-start;
-    margin-top: 80px;
     position: fixed;
+    top: 0;
 }
 
 #share-button {
