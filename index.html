@@ -12,27 +12,35 @@
 
     </head>
 
-<body class="bg">
+<body>
 
     <div class="container">
         
         <div id="div-share-button" class="icon icon-left">
-            <button id="share-button" onclick="shareLink(this)" class="ph-export-thin"></button>
+            <button id="share-button" onclick="shareLink()" class="ph-export-thin"></button>
+            <div id="copy" class="hidden copy-link label">
+                <button onclick="copyLink(this)" class="ph-share-thin"></button>
+                <button onclick="shareUrlWhatsapp()" class="ph-whatsapp-logo-thin"></button>
+                <button onclick="shareUrlTelegram()" class="ph-telegram-logo-thin"></button>
+            </div>
         </div>
 
     <section id="home">
         <div class="info-box">
-            <img class="foto"/>
+           <!-- <img class="foto"/> -->
             <div class="caixa-texto">
                 <div class="texto">
-                    <h1>Patrícia Paris</h1>
-                    <p>Psicóloga CRP 00/000000  @patricia.koltz</p>
+                    <h1>PATRÍCIA PARIS </h1>
+                    <div class="subtitulo">
+                        <div class="linha-gradiente"></div>
+                        <p>Psicóloga para Adolescentes</p>
+                    </div>
                 </div>
         
                 <div class="label">
                     <a href="#sobre-mim">Prazer, Paty!</a>
                 </div>
-
+            
                 <div class="label">
                     <a>Lista de espera</a>
                 </div>

@@ -15,6 +15,9 @@ function copyLink() {
 
     navigator.clipboard.writeText(url);
 
+    alert("Link copiado para área de transferência");
+
+
   }
 }
 
@@ -26,31 +29,21 @@ function insertAfter(newNode, existingNode) {
 
 function shareLink() {
 
-let classDiv = document.getElementsByClassName('copy-link')
+  let el = document.getElementById("copy");
 
-if (classDiv.length > 0) {
-
-  const element = document.getElementById('copy');
-  element.remove();
-
-} else { 
-
-  const el = document.createElement('div');
-
-  let button = document.getElementById('div-share-button');
-
-  insertAfter(el, button.lastElementChild);
-
-  el.setAttribute('id','copy');
-
-  el.classList.add( 'copy-link','label');
-
-  el.innerHTML = '<button onclick="copyLink(this)" class="ph-share-thin"></button><button onclick="shareUrlWhatsapp()" class="ph-whatsapp-logo-thin"></button><button onclick="shareUrlTelegram()" class="ph-telegram-logo-thin"></button>';
-
+  if (el.classList.contains("hidden")) {
+    document.getElementById("copy").classList.add('visible');
+    document.getElementById("copy").classList.remove('hidden');
+    } else {
+      closeNav();
+  }
 }
 
-
+function closeNav() {
+  document.getElementById("copy").classList.remove('visible');
+  document.getElementById("copy").classList.add('hidden');
 }
+
 
 function shareUrlWhatsapp(){
   var url = location.href;
