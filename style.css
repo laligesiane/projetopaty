@@ -155,18 +155,18 @@ html {
     letter-spacing: 2px;
 }
 
-#sobre-mim{
+#sobre{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#sobre-mim div.caixa-texto {
+#sobre div.caixa-texto {
     align-items: flex-start;
     width: 70%;
 }
 
-#sobre-mim div.texto h1 {
+#sobre div.texto h1 {
     text-align: start;
 }
 
