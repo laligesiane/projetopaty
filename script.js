@@ -1,8 +1,24 @@
-function copyLink() {
-    
+function copyLink() {  
+  var btn = document.getElementsByClassName('btn');
+  var clipboard = new ClipboardJS(btn);
+
+  clipboard.on('success', function (e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+  });
+
+  clipboard.on('error', function (e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+  });
+
+}
+
+
+/*   console.log(idButton.length)
   let idButton = document.getElementsByClassName('share-button')
-  
-  console.log(idButton.length)
 
   if (idButton.length > 1) {
   
@@ -17,8 +33,8 @@ function copyLink() {
 
     alert("Link copiado para área de transferência");
 
-  }
-}
+  } */
+
 
 
 function insertAfter(newNode, existingNode) {
@@ -57,3 +73,6 @@ function shareUrlTelegram(){
   var link = '  https://t.me/share/url?url='+url+'&text=';
   window.open(link);
 }
+
+
+

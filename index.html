@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./style.css">
         <script src="https://unpkg.com/phosphor-icons"></script>
         <script src="./script.js"></script>
+        <script src="./clipboard.js-master/dist/clipboard.min.js"></script>
 
     </head>
 
@@ -19,7 +20,10 @@
         <div id="div-share-button" class="icon icon-left">
             <button id="share-button" onclick="shareLink()" class="ph-export-thin"></button>
             <div id="copy" class="hidden copy-link label">
-                <button onclick="copyLink(this)" class="ph-share-thin"></button>
+
+                <button class="btn ph-share-thin" 
+                data-clipboard-text="https://projetopaty.vercel.app/">
+                </button>
                 <button onclick="shareUrlWhatsapp()" class="ph-whatsapp-logo-thin"></button>
                 <button onclick="shareUrlTelegram()" class="ph-telegram-logo-thin"></button>
             </div>
@@ -84,6 +88,25 @@
     </section>
 
     </div>
+
+    <script>
+        var btn = document.getElementsByClassName('btn');
+        var clipboard = new ClipboardJS(btn);
+  
+        clipboard.on('success', function (e) {
+          console.info('Action:', e.action);
+          console.info('Text:', e.text);
+          console.info('Trigger:', e.trigger);
+          alert('Link copiado');
+        });
+  
+        clipboard.on('error', function (e) {
+          console.info('Action:', e.action);
+          console.info('Text:', e.text);
+          console.info('Trigger:', e.trigger);
+        });
+      </script>
+
 
 </body>
 <footer class="caixa-texto texto">
