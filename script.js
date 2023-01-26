@@ -13,7 +13,7 @@ function copyLink() {
         
     var url = location.href;
 
-    navigator.clipboard.writeText(url);
+    navigator.clipboard.writeText(url.value);
 
     alert("Link copiado para área de transferência");
 
