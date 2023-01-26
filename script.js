@@ -17,7 +17,6 @@ function copyLink() {
 
     alert("Link copiado para área de transferência");
 
-
   }
 }
 
@@ -55,6 +54,6 @@ function shareUrlWhatsapp(){
 function shareUrlTelegram(){
   var url = location.href;
   var text = ['teste'];
-  var link = '  https://t.me/share/url?url='+url+'&text='+text;
+  var link = '  https://t.me/share/url?url='+url+'&text=';
   window.open(link);
 }

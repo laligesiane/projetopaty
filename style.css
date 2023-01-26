@@ -28,6 +28,15 @@ body {
     ---cor-roxo-claro: #B278B8;
     ---cor-rosa-escuro: #EE2289;
     ---cor-rosa-claro: #D58294;
+
+}
+
+
+.bg {
+    background-image: url(./media/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 button {
