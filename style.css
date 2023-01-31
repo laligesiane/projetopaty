@@ -181,16 +181,17 @@ html {
 }
 
 .text-content h1 {
-    font-family: 'Cooper Hewitt';
+    font-family: 'Fashion Fetish';
+    margin:20px 0 20px 0;
+    letter-spacing: 8px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(---cor-roxo-escuro);
     width: 100%;
-    line-height: 6vh;
 }
 
 .text-content p {
-    font-family: 'Glacial Indifference';
+    font-family: 'Fashion Fetish';
     font-weight: 700;
     font-size: 1.5rem;
     margin-top: auto;
@@ -198,6 +199,10 @@ html {
     color: var(---cor-roxo-escuro);
 }
 
+mark {
+    background-color: var(---cor-roxo-escuro);
+    color: var(---bg-color);
+}
 
 .text-home {
     display: flex;
