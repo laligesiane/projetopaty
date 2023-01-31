@@ -33,6 +33,7 @@ body {
     ---cor-rosa-escuro: #EE2289;
     ---cor-rosa-claro: #D58294;
 
+    margin: 0;
 }
 
 .horizontal-align {
@@ -302,8 +303,9 @@ section {
 }
 
 .logo-box {
+    margin: 10px;
     height: min-content;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: end;
 }
@@ -312,7 +314,8 @@ section {
     background-image: url(./media/logo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    background-attachment: scroll;
+    backface-visibility: visible;
 }
 
 #div-share-button {
