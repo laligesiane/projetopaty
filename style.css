@@ -426,7 +426,8 @@ section {
     }
     
     h1.h1-tiny {
-        font-size: 0.8rem;
+       font-size: 0.8rem;
+        letter-spacing: normal;
     }
 
     .label {
