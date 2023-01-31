@@ -291,6 +291,7 @@ mark {
     flex-wrap: nowrap;
     background-color: var(---bg-color);
     color: var(---bg-color);
+    gap: 5px;
 }
 
 .hidden {
@@ -441,7 +442,6 @@ section {
 
     .label {
         font-size: 12px;
-        width: 200px;
     }
 
     .icon {
