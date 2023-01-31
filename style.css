@@ -195,7 +195,7 @@ html {
     text-transform: none;
     font-family: 'Fashion Fetish';
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-top: auto;
     margin: 10px 0 10px 0;
     color: var(---cor-roxo-escuro);
@@ -410,6 +410,10 @@ section {
 
     .text-home p {
         font-size: 14px;
+    }
+    
+    .text-content p {
+        font-size: 1rem;
     }
 
     .label {
