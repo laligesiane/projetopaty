@@ -126,7 +126,6 @@ html {
 }
 
 .container {
-    margin: 2%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -323,9 +322,11 @@ section {
     justify-content: flex-start;
     position: fixed;
     top: 0;
+    right: 0;
 }
 
 #share-button {
+    padding:0;
     color: var(---cor-roxo-escuro);
 }
 
@@ -384,6 +385,9 @@ section {
 }
 
 @media screen and (max-width: 700px) {
+    .logo {
+        height: 40px;
+        width: 40px;
 
     .horizontal-align {
         flex-direction: column;
