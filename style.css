@@ -253,7 +253,7 @@ html {
     padding: 10px;
     margin: 10px;
     gap: 10px;
-    background: var(---cor-roxo-escuro);
+    background: var(---cor-roxo-claro);
     border-radius: 17px;
     align-content: center;
     justify-content: center;
@@ -261,7 +261,7 @@ html {
 }
 
 .label:hover {
-    background: var(---cor-roxo-claro);
+    background: var(---cor-azul-claro);
     color: var(---bg-color);
 }
 
