@@ -180,6 +180,12 @@ html {
     flex-direction: column;
 }
 
+.h1-tiny {
+    font-size: 1rem;
+    letter-spacing: normal;
+}
+    
+
 .text-content h1 {
     text-transform: uppercase;
     font-family: 'Fashion Fetish';
