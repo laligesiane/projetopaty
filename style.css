@@ -182,7 +182,7 @@ html {
 
 .text-content h1.h1-tiny {
     font-size: 1rem;
-    letter-spacing: initil;
+    letter-spacing: inherit;
 }
     
 p.p-large {
