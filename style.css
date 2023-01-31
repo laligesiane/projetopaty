@@ -185,6 +185,9 @@ h1.h1-tiny {
     letter-spacing: normal;
 }
     
+p.p-large {
+    font-size: 1.5rem;
+}
 
 .text-content h1 {
     text-transform: uppercase;
@@ -422,12 +425,16 @@ section {
     }
     
     .text-content h1 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     
     h1.h1-tiny {
        font-size: 0.8rem;
         letter-spacing: normal;
+    }
+    
+    p.p-large {
+        font-size: 1.3rem;
     }
 
     .label {
