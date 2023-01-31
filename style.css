@@ -197,6 +197,7 @@ p.p-large {
     font-size: 1.5rem;
     color: var(---cor-roxo-escuro);
     width: 100%;
+    line-height: 2;
 }
 
 .text-content p {
@@ -208,11 +209,13 @@ p.p-large {
     margin: 10px 0 10px 0;
     color: var(---cor-roxo-escuro);
     letter-spacing: normal;
+    line-height: 2;
 }
 
 mark {
     background-color: var(---cor-roxo-escuro);
     color: var(---bg-color);
+    padding: 2px;
 }
 
 .text-home {
