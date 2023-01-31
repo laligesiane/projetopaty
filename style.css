@@ -181,8 +181,9 @@ html {
 }
 
 .text-content h1 {
+    text-transform: uppercase;
     font-family: 'Fashion Fetish';
-    margin:20px 0 20px 0;
+    margin: 20px 0 20px 0;
     letter-spacing: 8px;
     text-align: center;
     font-size: 1.5rem;
@@ -191,12 +192,14 @@ html {
 }
 
 .text-content p {
+    text-transform: none;
     font-family: 'Fashion Fetish';
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: auto;
     margin: 10px 0 10px 0;
     color: var(---cor-roxo-escuro);
+    letter-spacing: normal;
 }
 
 mark {
