@@ -29,8 +29,9 @@
                 <button onclick="shareUrlTelegram()" class="ph-telegram-logo-thin"></button>
             </div>
         </div>
+        <span id="custom-tooltip">copied!</sapn>
         
- <a class="logo-box" href="#text-0"><img class="logo" src="./media/logo.png"></a>      
+ <a class="logo-box" href="#text-0"><img title="Voltar para o início" class="logo" src="./media/logo.png"></a>      
 
     <section id="text-0" class="sobre">
         <div class="content-container">
@@ -352,7 +353,10 @@
           console.info('Action:', e.action);
           console.info('Text:', e.text);
           console.info('Trigger:', e.trigger);
-          alert('Link copiado');
+          document.getElementById("custom-tooltip").style.display = "inline";
+            setTimeout( function() {
+                document.getElementById("custom-tooltip").style.display = "none";
+            }, 1000);
         });
   
         clipboard.on('error', function (e) {

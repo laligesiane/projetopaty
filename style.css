@@ -17,6 +17,28 @@
     src: url(./fontes/glacial-indifference/GlacialIndifference-Bold.otf);
 }
 
+
+
+.visuallyhidden{position:absolute;clip:rect(1px,1px,1px,1px)}
+.copybutton{background-color:#fff;border:0;outline:0;cursor:pointer;opacity:1;position:absolute;width:40px;height:40px;z-index:9;border-radius:24px}
+.button-tooltip-container {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    min-height: 30px;
+
+}
+#custom-tooltip {
+    display: none;
+    margin-left: 40px;
+    padding: 5px 12px;
+    background-color: #000000df;
+    border-radius: 4px;
+    color: #fff;
+}
+
+
+
 body {
     ---bg-color: #fff;
     ---text-h1-color: #fff;
@@ -215,7 +237,7 @@ p.p-large {
 }
 
 mark {
-    background-color: #d1d8f19e;
+    background-color: #e7d1f19e;
     color: var(---cor-roxo-escuro);
     padding: 2px;
 }
@@ -335,7 +357,7 @@ h1.titulo {
 }
 
 .bg-color-section {
-    background-color: #d1d8f140;
+    background-color: #e5d1f140;
 }
 
 .logo {
