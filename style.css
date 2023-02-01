@@ -422,6 +422,10 @@ section {
     button {
         font-size: 32px;
     }
+    
+    .text-home h1 {
+        font-size: 1.2rem;
+    }
 
 }
 
