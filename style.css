@@ -24,17 +24,17 @@
 
 
 .button-tooltip-container {
-    display: none;
+    display: flex;
+    align-content: center;
+    align-self: center;
     background: #d9aade54;
     height: auto;
     width: 100%;
 }
 
 #custom-tooltip {
-    display: flex;
-    align-content: center;
+    display: none;
     background: #d9aade54;
-    align-self: center;
     position: fixed;
     margin: 0 20px;
     height: auto;
