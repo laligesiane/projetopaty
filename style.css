@@ -222,7 +222,7 @@ p.p-large {
     line-height: 2;
 }
 
-.text-content p {
+.text-content p, span{
     text-transform: none;
     font-family: 'Fashion Fetish';
     font-weight: 700;
