@@ -464,7 +464,7 @@ h1.titulo {
     color: #0088CC;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 830px) {
     .logo {
         height: 40px;
         width: 40px;
