@@ -327,6 +327,7 @@ h1.titulo {
 }
 
 .copy-link {
+    max-width: 60%;
     width: auto;
     height: auto;
     flex-direction: row;
@@ -464,7 +465,7 @@ h1.titulo {
     color: #0088CC;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 700px) {
     .logo {
         height: 40px;
         width: 40px;
@@ -496,6 +497,7 @@ h1.titulo {
     }
 
     .label {
+        gap: 1%;
         font-size: 12px;
     }
 
