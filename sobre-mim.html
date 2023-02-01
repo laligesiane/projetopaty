@@ -360,9 +360,9 @@
           console.info('Text:', e.text);
           console.info('Trigger:', e.trigger);
           document.getElementById("custom-tooltip").style.display = "inline";
-           // setTimeout( function() {
-           //     document.getElementById("custom-tooltip").style.display = "none";
-           // }, 1000);
+         setTimeout( function() {
+             document.getElementById("custom-tooltip").style.display = "none";
+         }, 1000);
         });
   
         clipboard.on('error', function (e) {
