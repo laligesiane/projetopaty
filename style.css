@@ -23,17 +23,21 @@
 
 
 .button-tooltip-container {
-    display: flex;
-    width: auto;
-    align-self: center;
+    margin: 10px;
     height: auto;
+    /* width: 100%; */
+    display: flex;
+    justify-content: end;
 }
 
 #custom-tooltip {
-    display: none;
-    padding: 0 12px;
-    background-color: white;
-    border-radius: 17px;
+    position: fixed;
+    margin: 20px 0 20px 0;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 0;
 }
 
 
