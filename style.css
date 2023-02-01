@@ -183,6 +183,7 @@ html {
 .text-content h1.h1-tiny {
     font-size: 1rem;
     letter-spacing: inherit;
+    align-self: center;
 }
     
 p.p-large {
@@ -213,8 +214,8 @@ p.p-large {
 }
 
 mark {
-    background-color: var(---cor-roxo-escuro);
-    color: var(---bg-color);
+    background-color: #f1e3ff;
+    color: var(---cor-roxo-escuro);
     padding: 2px;
 }
 
@@ -305,13 +306,23 @@ mark {
     visibility: visible;
 }
 
-section {
+.landing-page section {
     height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.sobre-mim section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 .logo {
