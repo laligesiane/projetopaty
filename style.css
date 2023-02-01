@@ -327,14 +327,14 @@ h1.titulo {
 }
 
 .copy-link {
-    max-width: 60%;
+    max-width: 50%;
     width: auto;
     height: auto;
     flex-direction: row;
     flex-wrap: nowrap;
     background-color: var(---bg-color);
     color: var(---bg-color);
-    gap: 5px;
+    gap: initial;
 }
 
 .hidden {
@@ -497,7 +497,6 @@ h1.titulo {
     }
 
     .label {
-        gap: 1%;
         font-size: 12px;
     }
 
