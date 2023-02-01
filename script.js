@@ -70,7 +70,7 @@ function shareUrlWhatsapp(){
 function shareUrlTelegram(){
   var url = location.href;
   var text = ['teste'];
-  var link = '  https://t.me/share/url?url='+url+'&text=';
+  var link = '  https://t.me/share/url?url='+url;
   window.open(link);
 }
 

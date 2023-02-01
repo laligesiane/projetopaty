@@ -263,7 +263,6 @@ html {
 }
 
 .label:hover {
-    background: var(---cor-azul-claro);
     color: var(---bg-color);
 }
 
