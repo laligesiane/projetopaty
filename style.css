@@ -30,6 +30,7 @@
 }
 
 #custom-tooltip {
+    display: none;
     padding: 5px 12px;
     background-color: white;
     border-radius: 17px;
