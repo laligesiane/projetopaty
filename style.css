@@ -19,7 +19,7 @@
 
 #custom-tooltip p {
     font-weight: lighter;
-    font-size: 0.6rem;
+    font-size: 1rem;
 }
 
 
@@ -512,5 +512,8 @@ h1.titulo {
         font-size: 32px;
     }
 
+    #custom-tooltip p {
+        font-size: 0.6rem;
+    }
 }
 
