@@ -24,25 +24,21 @@
 
 
 .button-tooltip-container {
-    background: #d9aade54;
     display: none;
-    /* margin: 10px; */
+    background: #d9aade54;
     height: auto;
     width: 100%;
-    /* display: flex; */
-    /* justify-content: center;*/
 }
 
 #custom-tooltip {
+    display: flex;
+    align-content: center;
     background: #d9aade54;
     align-self: center;
     position: fixed;
-    margin: 20px 0 20px 0;
+    margin: 0 20px;
     height: auto;
     width: auto;
-    /* justify-content: center; */
-    /* align-items: center; */
-    bottom: 0;
 }
 
 
