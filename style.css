@@ -17,23 +17,22 @@
     src: url(./fontes/glacial-indifference/GlacialIndifference-Bold.otf);
 }
 
+#custom-tooltip p {
+    font-weight: lighter;
+}
 
 
 .button-tooltip-container {
+    display: flex;
     width: auto;
-    height: fit-content;
+    align-self: center;
+    height: auto;
 }
 
 #custom-tooltip {
-    display: none;
-    font-family: 'Fashion Fetish';
-    font-size: 0.6rem;
-    font-weight: lighter;
-    /* margin-left: 40px; */
     padding: 5px 12px;
-    background-color: #7c2a9296;
-    border-radius: 4px;
-    color: #fff;
+    background-color: white;
+    border-radius: 17px;
 }
 
 

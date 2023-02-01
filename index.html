@@ -27,8 +27,13 @@
                 </button>
                 <button onclick="shareUrlWhatsapp()" class="ph-whatsapp-logo-thin"></button>
                 <button onclick="shareUrlTelegram()" class="ph-telegram-logo-thin"></button>
-            </div>
+            </div>      
+
+            <div class="button-tooltip-container text-container
+                <span id="custom-tooltip">Link copiado!</sapn>
+            </div>  
         </div>
+
         
     <a class="logo-box" href="#home"><img class="logo" src="./media/logo.png"></a>      
 
@@ -78,23 +83,26 @@
 
 </div>
 
-    <script>
-        var btn = document.getElementsByClassName('btn');
-        var clipboard = new ClipboardJS(btn);
-  
-        clipboard.on('success', function (e) {
-          console.info('Action:', e.action);
-          console.info('Text:', e.text);
-          console.info('Trigger:', e.trigger);
-          alert('Link copiado');
-        });
-  
-        clipboard.on('error', function (e) {
-          console.info('Action:', e.action);
-          console.info('Text:', e.text);
-          console.info('Trigger:', e.trigger);
-        });
-      </script>
+<script>
+    var btn = document.getElementsByClassName('btn');
+    var clipboard = new ClipboardJS(btn);
+
+    clipboard.on('success', function (e) {
+      console.info('Action:', e.action);
+      console.info('Text:', e.text);
+      console.info('Trigger:', e.trigger);
+      document.getElementById("custom-tooltip").style.display = "inline";
+     setTimeout( function() {
+         document.getElementById("custom-tooltip").style.display = "none";
+     }, 1000);
+    });
+
+    clipboard.on('error', function (e) {
+      console.info('Action:', e.action);
+      console.info('Text:', e.text);
+      console.info('Trigger:', e.trigger);
+    });
+  </script>
 
 
 </body>
