@@ -280,7 +280,7 @@ mark {
 
     color: var(---cor-roxo-escuro);
     background: #d9aade54;
-    
+
     border-radius: 17px;
     align-content: center;
     justify-content: center;
@@ -291,8 +291,10 @@ h1.titulo {
     width: max-content;
 }
 
-.label:hover {
-    color: var(---bg-color);
+.hover-button:hover {
+    transition: 0.5s ease-in-out;
+    font-size: 1rem;
+    width: 260px;
 }
 
 .copy-link {
