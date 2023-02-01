@@ -438,20 +438,20 @@ mark {
     }
     
     .text-content p {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
     
     .text-content h1 {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
     
     .text-content h1.h1-tiny {
-       font-size: 0.8rem;
+       font-size: 0.7rem;
         letter-spacing: normal;
     }
     
     p.p-large {
-        font-size: 1.3rem;
+        font-size: 0.8rem;
     }
 
     .label {
