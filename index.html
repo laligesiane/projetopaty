@@ -387,24 +387,27 @@
     </section> -->
 
 </div>
-
+    
     <script>
         var btn = document.getElementsByClassName('btn');
         var clipboard = new ClipboardJS(btn);
-  
+
         clipboard.on('success', function (e) {
           console.info('Action:', e.action);
           console.info('Text:', e.text);
           console.info('Trigger:', e.trigger);
-          alert('Link copiado');
+          document.getElementById("custom-tooltip").style.display = "inline";
+         setTimeout( function() {
+             document.getElementById("custom-tooltip").style.display = "none";
+         }, 1000);
         });
-  
+
         clipboard.on('error', function (e) {
           console.info('Action:', e.action);
           console.info('Text:', e.text);
           console.info('Trigger:', e.trigger);
         });
-      </script>
+  </script>
 
 
 </body>
