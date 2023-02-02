@@ -17,6 +17,33 @@
     src: url(./fontes/glacial-indifference/GlacialIndifference-Bold.otf);
 }
 
+#custom-tooltip p {
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+
+.button-tooltip-container {
+    display: flex;
+    align-self: flex-start;
+    /* background: #d9aade54; */
+    height: fit-content;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#custom-tooltip {
+    display: none;
+    position: fixed;
+    border-radius: 17px;
+    background: white;
+    /* margin: 0 20px; */
+    height: max-content;
+    padding: 7px;
+    width: max-content;
+}
+
 body {
     ---bg-color: #fff;
     ---text-h1-color: #fff;
