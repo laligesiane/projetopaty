@@ -22,15 +22,20 @@
             <button id="share-button" onclick="shareLink()" class="ph-export-thin"></button>
             <div id="copy" class="hidden copy-link label">
 
-                <button class="btn ph-share-thin" 
-                data-clipboard-text="https://patriciaparis.vercel.app/">
+                <button class="btn ph-clipboard-text-thin" 
+                data-clipboard-text="https://projetopaty.vercel.app/">
                 </button>
                 <button onclick="shareUrlWhatsapp()" class="ph-whatsapp-logo-thin"></button>
                 <button onclick="shareUrlTelegram()" class="ph-telegram-logo-thin"></button>
-            </div>
+            </div>      
+            <div class="button-tooltip-container text-content">
+                <span id="custom-tooltip">
+                    <p>Link copiado!</p>
+                </sapn>
+            </div>  
         </div>
         
- <a class="logo-box" href="#home"><img class="logo" src="./media/logo.png"></a>      
+ <a class="logo-box" href="#home"><img class="logo" src="./media/logo.png" title="Voltar ao início"></a>      
 
     <section id="home">
         <div class="home-container">
@@ -46,13 +51,7 @@
                         </p>
                     </div>
                 </div>
-<!--         
-                <a href="#sobre">
-                    <div class="label">
-                    Prazer, Patrícia!
-                    </div>
-                </a> -->
-                
+
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQgnWrIax95OmUxtuL8Pq2AzhaPt-dzAgqIlVf5ijd5aPiXQ/viewform">
                     <div class="label">
                         Lista de espera
@@ -76,339 +75,34 @@
         </div>
     </section>
 
-
-
-<!--     <section id="sobre" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                    <div class="gradient-size">
-                        <h1 style="margin: 0;">Prazer, Patrícia!</h1>
-                        <div class="gradient-line-light"></div>
-                    </div>
-                    <h1 style="font-size: 1.3rem;">Paty para os mais próximos.</1>
-                    <p>
-                        Sou psicóloga, mas não só isso!
-                        <br>
-                        Vem conhecer um pouco da minha história 
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section id="sobre" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                    <div class="gradient-size">
-                        <p>
-                            Tenho 26 anos, moro em Blumenau, 
-                            tenho formação em terapia cognitivo comportamental e 
-                            crio conteúdo aqui na internet para adolescentes. 
-                        </p>
-                        <div class="gradient-line-light"></div>
-
-                    </div>              
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="psicologia-adolescentes" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                    <p style="color: white; background-color: #7C2A92; width: 100%; border-radius: 10px;">POR QUE PSICÓLOGA PARA ADOLESCENTES?!</p>
-                    <div class="horizontal-align">    
-                        <div class="gradient-size">
-                            <div class="gradient-line-light"></div>
-
-                            <img src="./media/logo.png"/>
-
-                            <div class="gradient-line-light"></div>
-                        </div>
-                        <p>
-                            Tudo começou no meu último semestre da faculdade 
-                            quando essa professora 
-                            da img me incentivou a estagiar na clínica, 
-                            eu já estava com o meu projeto com um 
-                            grupo de pessoas em fase inicial de trabalho encaminhado, 
-                            mas topei o desafio e ali plantou uma sementinha. 
-                        </p>  
-                    </div>         
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="psicologia-adolescentes" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                    <div class="horizontal-align">    
-                        <div class="gradient-size">
-
-                            <img src="./media/logo.png"/>
-
-                        </div>
-                        <p>
-                            Trabalho com adolescentes e pessoas em início de carreira em uma 
-                            Central de cooperativas da região, contribuo para o desenvolvimento 
-                            profissional e pessoal desses jovens. 
-                        </p>  
-                    </div>         
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="fundo-desfocado" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                    <div class="gradient-size">
-
-                    <div class="gradient-line-dark"></div>
-
-                    <p>
-                        Nessa jornada pude observar o quanto a terapia faz diferença 
-                        na vida de um adolescente, seja para 
-                        uma orientação profissional ou para um tratamento, 
-                        de uma coisa eu tenho certeza, eles só querem ser ouvidos!                     </p>
-
-                    <div class="gradient-line-dark"></div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-
-    <section id="sobre" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                    <div class="gradient-size">
-                        <p>
-                            A minha missão aqui é ajudar o adolescente a montar esse quebra-cabeça que vem misturado em uma caixa da infância, da qual ele precisa encaixar as peças na adolescência para se tornar um adulto.                         </p>
-                        <div class="gradient-line-light"></div>
-                    </div>              
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="psicologia-adolescentes" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                    <p style="color: white; background-color: #7C2A92; width: auto; border-radius: 10px;">MEU SONHO!</p>
-                    <div class="horizontal-align">    
-                        <div class="gradient-size">
-
-                            <div class="gradient-line-light"></div>
-
-                            <img src="./media/logo.png"/>
-
-                            <div class="gradient-line-light"></div>
-
-                        </div>
-                        <p>
-                            Sou a primeira da minha família a concluir uma graduação, foi o dia mais feliz da minha vida, concluir a faculdade era algo inalcançável para as circunstâncias em que cresci.  
-                        </p>  
-                    </div>         
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-    <section id="psicologia-adolescentes" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                    <div class="horizontal-align">    
-                        <p>
-                            Essa foto ao lado  foi um grito de liberdade para mim e 
-                            para a minha família,  foi 
-                            a quebra de muitas crenças de que 
-                            uma criança que cresceu com dificuldades 
-                            não alcançaria uma graduação e muito menos uma de Psicologia. 
-                        </p>  
-
-                        <div class="gradient-size">
-
-                            <img src="./media/logo.png"/>
-
-                        </div>
-                    </div>         
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="sobre" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                    <p style="color: white; background-color: #7C2A92; width: auto; border-radius: 10px;">MINHA FAMÍLIA</p>
-
-
-                    <div class="vertical-align">
-
-                        <div class="gradient-size">
-                            <p>
-                                Sou a segunda filha mais velha e tenho 5 irmãos, na foto estão minhas 3 irmãs e meu irmão mais novo, somos 6 filhos de 5 pais diferentes, por isso, a diversidade entre nós é visível, a minha mãe não estava na foto, mas estava junto nesse momento especial. 
-                            <div class="gradient-line-light"></div>
-                        </div>  
-
-                        <div class="gradient-size horizontal-align">
-
-                            <img src="./media/logo.png"/>
-
-                        </div>             
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="sobre" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                
-                    <div class="vertical-align">
-
-                        <div class="gradient-size">
-                            <p>
-                                Sou tia de 3 crianças adoráveis, a Elisa, a Alice e o Emanuel, eles aparecem com frequência por aqui porque sou uma tia babona
-                            </p>
-                        <div class="gradient-line-light"></div>
-                        </div>  
-                        <div class="horizontal-align">
-                            <img style="width: 50px; height: 50px;" src="./media/logo.png"/>
-                            <img style="width: 50px; height: 50px;" src="./media/logo.png"/>
-                            <img style="width: 50px; height: 50px;" src="./media/logo.png"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="sobre" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                
-                    <p style="color: white; background-color: #7C2A92; width: auto; border-radius: 10px;">MEU COMPANHERO!</p>
-
-
-                    <div class="vertical-align">
-                        <p>
-                            Esse é o Thiago, ele é o meu companheiro e artista das minhas tatuagens, ele surgiu na minha vida pra me fazer sorrir, não tem um dia  sequer que ele não tenha me feito sorrir até hoje. 
-                        </p>
-                    </div>  
-                        
-                    <div class="horizontal-align gradient-size">
-                        <img style="width: 50px; height: 50px;" src="./media/logo.png"/>
-                        <img style="width: 50px; height: 50px;" src="./media/logo.png"/>
-                        <h1>Bom, sobre nós, gostamos de uma aventura</h1>
-                        <div class="gradient-line-light"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="psicologia-adolescentes" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                    <div class="horizontal-align">    
-                        <p>
-                            Mas também gostamos de ficar à toa  no nosso canto, combinamos porque temos a "bateria social baixa" e gostamos de uma xícara de chá antes de dormir um sono de qualidade                        </p>  
-                        </p>
-                        <div class="gradient-size">
-
-                            <div class="gradient-line-light"></div>
-
-                            <img src="./media/logo.png"/>
-
-                            <div class="gradient-line-light"></div>
-
-                        </div>
-                    </div>  
-                           
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="sobre" class="sobre">
-        <div class="content-container">
-            <div class="text-container">
-                <div class="text-content">
-                    <div class="gradient-size">
-                        <p style="font-size: 1.6rem;" >Isso (não) é tudo pessoal.</p>
-                        <div class="gradient-line-light"></div>
-                    </div>
-                    <p>
-
-                        Se você se identificou até aqui, isso é só o começo do que podemos 
-                        construir juntos. A adolescência pode ser uma fase confusa, mas não 
-                        precisa ser sofrida. 
-                        <br>
-                        Então, eu te convido a vir comigo que  irei te ajudar de uma forma leve e 
-                        criativa a montar as peças desse quebra-cabeça chamado 
-                        <mark style="color: #839FFC; background-color: transparent;">ADOLESCÊNCIA!</mark>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
 </div>
-
+    
     <script>
         var btn = document.getElementsByClassName('btn');
         var clipboard = new ClipboardJS(btn);
-  
+
         clipboard.on('success', function (e) {
           console.info('Action:', e.action);
           console.info('Text:', e.text);
           console.info('Trigger:', e.trigger);
-          alert('Link copiado');
+          document.getElementById("custom-tooltip").style.display = "inline";
+         setTimeout( function() {
+             document.getElementById("custom-tooltip").style.display = "none";
+         }, 1000);
         });
-  
+
         clipboard.on('error', function (e) {
           console.info('Action:', e.action);
           console.info('Text:', e.text);
           console.info('Trigger:', e.trigger);
         });
-      </script>
+  </script>
 
 
 </body>
-<footer class="text-container texto">
+<footer class="text-container text-home">
     <p>
     2023
-<!--   <br>
- Feito por Lavínia Gesiane 
-  -->
     </p>
 </footer>
 </html>
