@@ -44,6 +44,8 @@
     width: max-content;
 }
 
+
+
 body {
     ---bg-color: #fff;
     ---text-h1-color: #fff;
@@ -123,6 +125,7 @@ html {
 
 
 .gradient-line-light {
+    opacity: 50%;
     width: 100%;
     height: 3px;
     background-repeat: no-repeat;
@@ -207,24 +210,44 @@ html {
     flex-direction: column;
 }
 
-.text-content h1 {
-    font-family: 'Cooper Hewitt';
-    text-align: center;
-    font-size: 2rem;
-    color: var(---cor-roxo-escuro);
-    width: 100%;
-    line-height: 6vh;
+.text-content h1.h1-tiny {
+    font-size: 1rem;
+    letter-spacing: inherit;
+    align-self: center;
+}
+    
+p.p-large {
+    font-size: 1.5rem;
 }
 
-.text-content p {
-    font-family: 'Glacial Indifference';
-    font-weight: 700;
+.text-content h1 {
+    text-transform: uppercase;
+    font-family: 'Fashion Fetish';
+    letter-spacing: 8px;
+    text-align: center;
     font-size: 1.5rem;
+    color: var(---cor-roxo-escuro);
+    width: 100%;
+    line-height: 2;
+}
+
+.text-content p, span{
+    text-transform: none;
+    font-family: 'Fashion Fetish';
+    font-weight: 700;
+    font-size: 1.3rem;
     margin-top: auto;
     margin: 10px 0 10px 0;
     color: var(---cor-roxo-escuro);
+    letter-spacing: normal;
+    line-height: 2;
 }
 
+mark {
+    background-color: #e7d1f19e;
+    color: var(---cor-roxo-escuro);
+    padding: 2px;
+}
 
 .text-home {
     display: flex;
@@ -246,7 +269,6 @@ html {
     font-weight: lighter;
     font-size: 16px;
     margin-top: auto;
-    margin-bottom: auto;
     line-height: initial; 
     color: var(---cor-rosa-escuro);
     letter-spacing: 1px;
@@ -289,17 +311,25 @@ html {
     align-items: center;
 }
 
-.label:hover {
-    color: var(---bg-color);
+h1.titulo {
+    width: max-content;
+}
+
+.hover-button:hover {
+    transition: 0.5s ease-in-out;
+    font-size: 1rem;
+    width: 260px;
 }
 
 .copy-link {
+    max-width: 50%;
     width: auto;
     height: auto;
     flex-direction: row;
     flex-wrap: nowrap;
     background-color: var(---bg-color);
     color: var(---bg-color);
+    gap: initial;
 }
 
 .hidden {
@@ -310,13 +340,27 @@ html {
     visibility: visible;
 }
 
-section {
+.landing-page section {
     height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.sobre-mim section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.bg-color-section {
+    background-color: #e5d1f140;
 }
 
 .logo {
@@ -337,8 +381,7 @@ section {
     justify-content: end;
 }
 
-#fundo-desfocado {
-    background-image: url(./media/logo.png);
+#text-img-2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -430,10 +473,26 @@ section {
     .text-home p {
         font-size: 14px;
     }
+    
+    .text-content p {
+        font-size: 0.7rem;
+    }
+    
+    .text-content h1 {
+        font-size: 0.8rem;
+    }
+    
+    .text-content h1.h1-tiny {
+       font-size: 0.7rem;
+        letter-spacing: normal;
+    }
+    
+    p.p-large {
+        font-size: 0.8rem;
+    }
 
     .label {
         font-size: 12px;
-        width: 200px;
     }
 
     .icon {
@@ -448,10 +507,8 @@ section {
     button {
         font-size: 32px;
     }
-    
-    .text-home h1 {
-        font-size: 1.2rem;
+
+    #custom-tooltip p {
+        font-size: 0.6rem;
     }
-
 }
-
