@@ -330,6 +330,7 @@ h1.titulo {
     flex-wrap: nowrap;
     background-color: var(---bg-color);
     color: var(---bg-color);
+    gap: 1%;
 }
 
 .hidden {
