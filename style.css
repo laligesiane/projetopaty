@@ -313,7 +313,8 @@ mark {
 }
 
 div#copy.label {
-    gap: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 h1.titulo {
