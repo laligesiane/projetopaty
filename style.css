@@ -308,7 +308,7 @@ mark {
     background: var(---cor-roxo-claro);
     border-radius: 17px;
     align-content: center;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
 }
 
