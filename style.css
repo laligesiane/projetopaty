@@ -328,7 +328,7 @@ h1.titulo {
 }
 
 .copy-link {
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
     flex-direction: row;
     flex-wrap: nowrap;
