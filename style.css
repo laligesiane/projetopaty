@@ -314,7 +314,7 @@ mark {
 
 div#copy.label {
     width: fit-content;
-    padding: 5px;
+    gap: 1px;
 }
 
 h1.titulo {
