@@ -312,6 +312,10 @@ mark {
     align-items: center;
 }
 
+div#copy.label {
+    gap: 2px;
+}
+
 h1.titulo {
     width: max-content;
 }
