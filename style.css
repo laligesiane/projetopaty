@@ -313,8 +313,7 @@ mark {
 }
 
 div#copy.label {
-    padding-left: 10px;
-    padding-top: 10px;
+    width: fit-content;
 }
 
 h1.titulo {
@@ -329,7 +328,6 @@ h1.titulo {
 
 .copy-link {
     max-width: 60%;
-    width: auto;
     height: auto;
     flex-direction: row;
     flex-wrap: nowrap;
