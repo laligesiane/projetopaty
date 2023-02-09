@@ -159,6 +159,7 @@ html {
 }
 
 .container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -269,7 +270,8 @@ mark {
     font-weight: lighter;
     font-size: 16px;
     margin-top: auto;
-    line-height: initial; 
+    margin-bottom: auto;
+    line-height: initial;
     color: var(---cor-rosa-escuro);
     letter-spacing: 1px;
 }
@@ -290,6 +292,7 @@ mark {
 .content-container div.text-home h1 {
     text-align: start;
 }
+
 
 
 .label {
@@ -327,13 +330,12 @@ h1.titulo {
 
 .copy-link {
     max-width: 60%;
-    width: auto;
     height: auto;
     flex-direction: row;
     flex-wrap: nowrap;
     background-color: var(---bg-color);
     color: var(---bg-color);
-    gap: initial;
+    gap: 1px;
 }
 
 .hidden {
@@ -403,6 +405,7 @@ h1.titulo {
     position: fixed;
     top: 0;
     right: 0;
+    margin-top: 0;
 }
 
 #share-button {
@@ -478,6 +481,10 @@ h1.titulo {
         font-size: 14px;
     }
     
+    .text-home h1 {
+        font-size: 1.2rem;
+    }
+    
     .text-content p {
         font-size: 0.7rem;
     }
@@ -496,6 +503,7 @@ h1.titulo {
     }
 
     .label {
+        width: 200px;
         font-size: 12px;
     }
 
@@ -516,4 +524,3 @@ h1.titulo {
         font-size: 0.6rem;
     }
 }
-
