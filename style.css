@@ -293,14 +293,8 @@ mark {
     text-align: start;
 }
 
-
-
 .label {
     box-shadow: 0 5px 10px rgb(66 66 66 / 19%);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     display: flex;
     width: 241px;
     padding: 10px;
@@ -311,6 +305,15 @@ mark {
     align-content: center;
     justify-content: center;
     align-items: center;
+    
+    font-family: 'Cooper Hewitt';
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: initial;
+    color: white;
+    letter-spacing: 1px;
 }
 
 div#copy.label {
@@ -475,6 +478,10 @@ h1.titulo {
 
     .horizontal-align {
         flex-direction: column;
+    }
+    
+    .label {
+        font-size: 14px;   
     }
 
     .text-home p {
