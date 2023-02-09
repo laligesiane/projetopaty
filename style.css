@@ -309,7 +309,7 @@ mark {
     justify-content: center;
     align-items: center;
     
-    font-family: 'Inter', sans-serif;
+    font-family: 'Cooper Hewitt';
     font-size: 15px;
     line-height: initial;
     color: #fafafa;
@@ -481,6 +481,7 @@ h1.titulo {
     }
     
     .label {
+        font-weight: bold;
         font-size: 13px;   
         width: 200px;
     }
