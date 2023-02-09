@@ -159,7 +159,7 @@ html {
 }
 
 .container {
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -356,7 +356,6 @@ h1.titulo {
 }
 
 .sobre-mim section {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
