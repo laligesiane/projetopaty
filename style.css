@@ -310,7 +310,7 @@ mark {
     align-items: center;
     
     font-family: 'Cooper Hewitt';
-    font-size: 14px;
+    font-size: 15px;
     line-height: initial;
     color: #fafafa;
     letter-spacing: 1px;
@@ -481,7 +481,7 @@ h1.titulo {
     }
     
     .label {
-        font-size: 12px;   
+        font-size: 13px;   
     }
 
     .text-home p {
