@@ -482,6 +482,7 @@ h1.titulo {
     
     .label {
         font-size: 13px;   
+        width: 200px;
     }
 
     .text-home p {
@@ -507,11 +508,6 @@ h1.titulo {
     
     p.p-large {
         font-size: 0.9rem;
-    }
-
-    .label {
-        width: 200px;
-        font-size: 12px;
     }
 
     .icon {
