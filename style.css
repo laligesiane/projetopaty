@@ -486,20 +486,20 @@ h1.titulo {
     }
     
     .text-content p {
-        font-size: 0.7rem;
-    }
-    
-    .text-content h1 {
         font-size: 0.8rem;
     }
     
+    .text-content h1 {
+        font-size: 0.9rem;
+    }
+    
     .text-content h1.h1-tiny {
-       font-size: 0.7rem;
+        font-size: 0.8rem;
         letter-spacing: normal;
     }
     
     p.p-large {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .label {
