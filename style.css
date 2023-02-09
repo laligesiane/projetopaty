@@ -292,28 +292,27 @@ mark {
 }
 
 
-
 .label {
-    /* box-shadow: 0 5px 10px #7c2a9221; */
-
-    font-family: 'Cooper Hewitt';
-    font-weight: bolder;
-    font-size: 0.9rem;
-    letter-spacing: 1px;
-
+    box-shadow: 0 5px 10px rgb(66 66 66 / 19%);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     display: flex;
     width: 241px;
     padding: 10px;
     margin: 10px;
     gap: 10px;
-
-    color: var(---cor-roxo-escuro);
-    background: #d9aade54;
-
+    background: var(---cor-roxo-claro);
     border-radius: 17px;
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+
+div#copy.label {
+    width: fit-content;
+    gap: 1px;
 }
 
 h1.titulo {
@@ -327,7 +326,7 @@ h1.titulo {
 }
 
 .copy-link {
-    max-width: 50%;
+    max-width: 60%;
     width: auto;
     height: auto;
     flex-direction: row;
