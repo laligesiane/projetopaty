@@ -309,7 +309,7 @@ mark {
     justify-content: center;
     align-items: center;
     
-    font-family: 'Cooper Hewitt';
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     line-height: initial;
     color: #fafafa;
